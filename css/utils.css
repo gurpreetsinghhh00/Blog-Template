@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Potta+One&family=Varela+Round&display=swap");
+
+.max-width1 {
+  width: 80vw;
+}
+
+.max-width2 {
+  width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.font2 {
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.font3 {
+  font-family: "Varela Round", sans-serif;
+}
+
+
+.my-1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
