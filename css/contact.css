@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Potta+One&family=Varela+Round&display=swap");
+
+:root {
+  --font1: "Potta One", cursive;
+  --font2: "Baloo Bhai 2", cursive;
+  --font3: "Varela Round", sans-serif;
+}
+
+.content-contact {
+  font-family: var(--font3);
+  height: 90vh;
+  color: black;
+  display: block;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.content-contact::after {
+  content: "";
+  background-image: url("../img/content_bg.jpg");
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.form-box input,
+textarea {
+  font-family: var(--font2);
+  width: 50vw;
+  padding: 15px 10px;
+  margin: 7px 0;
+  border: 1px solid rgb(255 209 152 / 65%);
+  border-radius: 5px;
+  outline-color: rgb(255 209 152 / 85%);
+}
+
+.contact-form {
+  /* text-align: center; */
+}
+.btn-contact {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  font-family: var(--font3);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-contact:hover {
+  background-color: rgb(255 209 152 / 65%);
+  transition: all 0.3s ease-in-out;
+}
